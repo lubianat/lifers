@@ -1,0 +1,18 @@
+---
+data:
+  - naked_eye_planets_01:
+      - name: Venus
+      - description: planet second-closest to the Sun in the Solar System
+      - best_image: https://upload.wikimedia.org/wikipedia/commons/1/1e/Planet_Venus_im_Deutschen_Museum.jpg
+      - links:
+          wikidata: http://www.wikidata.org/entity/Q313
+          wikipedia: https://en.wikipedia.org/wiki/Venus
+pack_metadata:
+  - name: Solar System - Naked Eye Planets
+  - observation_task: See the planets in the sky either with the naked eye. Better done at night!
+  - creator_name: Tiago Lubiana
+  - creator_id: tiagolubiana
+  - creation_date: 2023-08-11T00:00:00.000Z
+  - id: naked_eye_planets
+  - valid_links: wikidata, wikipedia
+  - experience_class: observation
