@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lifers"
+version = "0.1.0"
+description = "Lifers is an application for technology-powered joyful experience of life!"
+authors = ["Tiago Lubiana <tiago.lubiana.alves@usp.br>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sparqlwrapper = "^2.0.0"
+wdcuration = "^0.2.1"
+pyyaml = "^6.0.1"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
