@@ -12,6 +12,9 @@ sparqlwrapper = "^2.0.0"
 wdcuration = "^0.2.1"
 pyyaml = "^6.0.1"
 pathlib = "^1.0.1"
+flask = "^2.3.3"
+flask-sqlalchemy = "^3.0.5"
+flask-login = "^0.6.2"
 
 
 [build-system]
