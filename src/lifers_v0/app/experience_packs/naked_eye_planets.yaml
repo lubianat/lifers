@@ -1,45 +1,45 @@
+---
 entities:
-- best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Planet%20Venus%20im%20Deutschen%20Museum.jpg
-  description: planet second-closest to the Sun in the Solar System
-  global_id: naked_eye_planets_1
-  links:
-    wikidata: http://www.wikidata.org/entity/Q313
-    wikipedia: https://en.wikipedia.org/wiki/Venus
-  local_id: 1
-  name: Venus
-- best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Mars%20-%20August%2030%202021%20-%20Flickr%20-%20Kevin%20M.%20Gill.png
-  description: fourth planet in the Solar System from the Sun
-  global_id: naked_eye_planets_2
-  links:
-    wikidata: http://www.wikidata.org/entity/Q111
-    wikipedia: https://en.wikipedia.org/wiki/Mars
-  local_id: 2
-  name: Mars
-- best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Jupiter%20New%20Horizons.jpg
-  description: fifth planet from the Sun and largest planet in the Solar System
-  global_id: naked_eye_planets_3
-  links:
-    wikidata: http://www.wikidata.org/entity/Q319
-    wikipedia: https://en.wikipedia.org/wiki/Jupiter
-  local_id: 3
-  name: Jupiter
-- best_image: http://commons.wikimedia.org/wiki/Special:FilePath/8423%2020181%201saturn2016.jpg
-  description: sixth planet from the Sun and the second-largest planet in the Solar
-    System, after Jupiter
-  global_id: naked_eye_planets_4
-  links:
-    wikidata: http://www.wikidata.org/entity/Q193
-    wikipedia: https://en.wikipedia.org/wiki/Saturn
-  local_id: 4
-  name: Saturn
-- best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Mercury%20in%20color%20-%20Prockter07%20centered.jpg
-  description: smallest and closest planet to the sun in the Solar System
-  global_id: naked_eye_planets_5
-  links:
-    wikidata: http://www.wikidata.org/entity/Q308
-    wikipedia: https://en.wikipedia.org/wiki/Mercury_(planet)
-  local_id: 5
-  name: Mercury
+  - best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Planet%20Venus%20im%20Deutschen%20Museum.jpg
+    description: planet second-closest to the Sun in the Solar System
+    global_id: naked_eye_planets_1
+    links:
+      wikidata: http://www.wikidata.org/entity/Q313
+      wikipedia: https://en.wikipedia.org/wiki/Venus
+    local_id: 1
+    name: Venus
+  - best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Mars%20-%20August%2030%202021%20-%20Flickr%20-%20Kevin%20M.%20Gill.png
+    description: fourth planet in the Solar System from the Sun
+    global_id: naked_eye_planets_2
+    links:
+      wikidata: http://www.wikidata.org/entity/Q111
+      wikipedia: https://en.wikipedia.org/wiki/Mars
+    local_id: 2
+    name: Mars
+  - best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Jupiter%20New%20Horizons.jpg
+    description: fifth planet from the Sun and largest planet in the Solar System
+    global_id: naked_eye_planets_3
+    links:
+      wikidata: http://www.wikidata.org/entity/Q319
+      wikipedia: https://en.wikipedia.org/wiki/Jupiter
+    local_id: 3
+    name: Jupiter
+  - best_image: http://commons.wikimedia.org/wiki/Special:FilePath/8423%2020181%201saturn2016.jpg
+    description: sixth planet from the Sun and the second-largest planet in the Solar System, after Jupiter
+    global_id: naked_eye_planets_4
+    links:
+      wikidata: http://www.wikidata.org/entity/Q193
+      wikipedia: https://en.wikipedia.org/wiki/Saturn
+    local_id: 4
+    name: Saturn
+  - best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Mercury%20in%20color%20-%20Prockter07%20centered.jpg
+    description: smallest and closest planet to the sun in the Solar System
+    global_id: naked_eye_planets_5
+    links:
+      wikidata: http://www.wikidata.org/entity/Q308
+      wikipedia: https://en.wikipedia.org/wiki/Mercury_(planet)
+    local_id: 5
+    name: Mercury
 pack:
   creation_date: '2023-08-11T00:00:00.000Z'
   creator_id: tiagolubiana
@@ -47,7 +47,7 @@ pack:
   experience_class: observation
   id: naked_eye_planets
   name: Solar System - Naked Eye Planets
-  task: See the planets in the sky either with the naked eye. Better done at night!
+  task: See the planets in the sky with the naked eye. Better done at night!
   valid_links:
-  - wikidata
-  - wikipedia
+    - wikidata
+    - wikipedia
