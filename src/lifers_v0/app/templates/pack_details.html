@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ pack_data.pack.name }}</title>
+</head>
+
+<body>
+
+  <a href="{{ url_for('index') }}">Back to Main Page</a>
+
+  <h1>{{ pack_data.pack.name }}</h1>
+
+  <p><strong>Created by:</strong> {{ pack_data.pack.creator_name }}</p>
+  <p><strong>Creation Date:</strong> {{ pack_data.pack.creation_date }}</p>
+  <p><strong>Task:</strong> {{ pack_data.pack.task }}</p>
+
+  <ul>
+    {% for entity in pack_data.entities %}
+    <li>
+      <img src="{{ entity.best_image }}" alt="{{ entity.name }}" width="100">
+      <h2>{{ entity.name }}</h2>
+      <p>{{ entity.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+</body>
+
+</html>

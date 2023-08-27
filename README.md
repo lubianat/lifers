@@ -36,14 +36,14 @@ Here is the basic outline of an incomplete experience pack:
 ```
 ---
 entities:
-  - naked_eye_planets_1:
-      - local_id: 1 
-      - name: Venus
-      - description: planet second-closest to the Sun in the Solar System
-      - best_image: https://upload.wikimedia.org/wikipedia/commons/1/1e/Planet_Venus_im_Deutschen_Museum.jpg
-      - links:
-          wikidata: http://www.wikidata.org/entity/Q313
-          wikipedia: https://en.wikipedia.org/wiki/Venus
+- best_image: http://commons.wikimedia.org/wiki/Special:FilePath/Planet%20Venus%20im%20Deutschen%20Museum.jpg
+  description: planet second-closest to the Sun in the Solar System
+  global_id: naked_eye_planets_1
+  links:
+    wikidata: http://www.wikidata.org/entity/Q313
+    wikipedia: https://en.wikipedia.org/wiki/Venus
+  local_id: 1
+  name: Venus
 pack:
   - name: Solar System - Naked Eye Planets
   - task: See the planets in the sky either with the naked eye. Better done at night!
